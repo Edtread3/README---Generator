@@ -33,6 +33,21 @@ const questions = [{
             name: 'installations',
         },
         {
+            type: 'input',
+            message: 'What were the technologies used for this project?',
+            name: 'usage',
+        },
+        {
+            type: 'input',
+            message: 'List any Contributors if any?',
+            name: 'contributors',
+        },
+        {
+            type: 'input',
+            message: 'Were there any test ran for project?',
+            name: 'test'
+        }
+        {
         
             type: 'input',
             message: 'What is your name?',
@@ -51,17 +66,17 @@ const questions = [{
         {
             type: 'input',
             message: 'What is your LinkdIn account?',
-            name: 'LinkdIn',
+            name: 'linkdIn',
         },
         {
             type: 'input',
             message: 'What is your Github account?',
-            name: 'Github',
+            name: 'github',
         },
         {
             type: 'input',
-            message: 'What is your email?',
-            name: 'Email',
+            message: 'What is your Email?',
+            name: 'email',
         },
       ]
 
