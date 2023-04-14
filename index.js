@@ -13,7 +13,7 @@ const generateMarkdown = require("./generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [{
             type: 'input',
-            message: 'Title of your project?',
+            message: 'Whats the Title of your project?',
             name: 'title',
         },
         {
@@ -25,7 +25,7 @@ const questions = [{
             type: 'checkbox',
             message: 'Select a license used for project:',
             name: 'license',
-            choices: ['MIT' , 'Apache 2.0' , 'Eclipse', 'ISC',],
+            choices: ['MIT' , 'Apache 2.0' , 'Eclipse', 'ISC', 'none',],
         },
         {
             type: 'input',
@@ -45,8 +45,8 @@ const questions = [{
         {
             type: 'input',
             message: 'Were there any test ran for project?',
-            name: 'test'
-        }
+            name: 'test',
+        },
         {
         
             type: 'input',
@@ -55,7 +55,7 @@ const questions = [{
         },
         {
             type: 'input',
-            message: 'Where do you live?',
+            message: 'What city or state do you currently live in?',
             name: 'city',
         },
         {
@@ -66,11 +66,11 @@ const questions = [{
         {
             type: 'input',
             message: 'What is your LinkdIn account?',
-            name: 'linkdIn',
+            name: 'linkdin',
         },
         {
             type: 'input',
-            message: 'What is your Github account?',
+            message: 'What is your Github username?',
             name: 'github',
         },
         {
@@ -90,8 +90,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((response) => {
-       console.log("Success ReadMe file Created!");
-    writeToFile("./README.md", generateMarkdown({response}))
+       console.log("Success!!!.. ReadMe file Created!");
+    writeToFile("./README.md", generateMarkdown(response))
     });
         
 
