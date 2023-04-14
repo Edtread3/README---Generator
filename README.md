@@ -1,5 +1,5 @@
-# Title: dskjslksd
-  created by: sdjkjghs
+# Title: ReadMe Generator
+  created by: ED
   ## License Badge...
   ![license](https://img.shields.io/badge/License-MIT-blue.svg)
 
@@ -15,7 +15,7 @@
   - [Contact info](#contact)
 
   ## Description:
-  sjhkjhks
+  To create a command-line app that will dynamically generate a professional ReadMe.
 
   
   ## License:
@@ -23,33 +23,33 @@
   
   
   ## Installations:
-  shkjhks
+  npm, inquirer, package.json
 
   
   ## Usage:
-  dhjkjdsd
+  Technologies used were , Bash, node.js, and last but not least  JavaScript.
 
   
   ## Contributors:
-  sdsjhkjs
+  github
 
   
   ## Test:
-  dshshhd
+  none.
 
   
   ## Bio:
-  djsh
+  Im cool, funny, like to play basketball, travel the world, and enjoy life.
 
   
   
   
   ## Contact Me:
   
-  ### Name: sdjkjghs
-  ### Linkdin account: hdhgjf
-  ### Github account: sfvjhd
-  ### Email: shdhsdjh
+  ### Name: ED
+  ### Linkdin account: n/a
+  ### Github account: Edtread
+  ### Email: ETread@gmail.com
 
   ## Screencastify Recording: https://drive.google.com/file/d/1q1fNJ_aBYtlAfQKI-vPz4N-tE_MpdG2Q/view
 
